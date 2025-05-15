@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic form design using HTML</title>
+</head>
+<body>
+
+    <h1>GeeksforGeeks</h1>
+    <h3>Basic form design using HTML</h3>
+
+        <h5>Personal Details</h5>
+
+        First name : <input type="text" name="firstname"><br><br>
+        Last name : <input type="text" name="lastname"><br><br>
+
+        Gender :
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female<br><br>
+
+        Email : <input type="email" name="email"><br><br>
+
+        Date of Birth :
+        <input type="date" name="dob"><br><br>
+
+        Address :<br>
+        <textarea name="address" rows="4" cols="35"></textarea><br><br>
+
+        <button>Submit</button>
+
+</body>
+</html>
