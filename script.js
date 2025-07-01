@@ -1,18 +1,17 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const registerBtn = document.getElementById('register');
-  const infoBox = document.getElementById('info');
-  const helloBox = document.getElementById('hello');
-  const submitBtn = document.getElementById('submit');
+const registerButton = document.getElementById('register');
+const infoBox = document.getElementById('info');
+const helloBox = document.getElementById('hello');
+const submitButton = document.getElementById('submit');
 
-  registerBtn.onclick = () => {
+registerButton.onclick = () => {
     infoBox.style.display = 'block';
-  };
+};
 
-  submitBtn.onclick = () => {
+submitButton.onclick = () => {
     const name = document.getElementById('name').value.trim();
     if (name) {
-      infoBox.style.display = 'none';
-      helloBox.textContent = `Welcome ${name}!`;
+        infoBox.style.display = 'none';
+        helloBox.textContent = `Welcome ${name}!`;
     }
-  };
-});
+};
+
