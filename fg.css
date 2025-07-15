@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    /*flex-direction: column;*/
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border: 1px solid black;
+    margin: 10px;
+    height: 200px;
+    align-items: center;
+}
+/*.container{*/
+/*    display: grid;*/
+/*    grid-template-columns: repeat(5, auto);*/
+/*    border: 1px solid black;*/
+/*    margin: 10px;*/
+/*}*/
+.box{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ced1c8;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+}
