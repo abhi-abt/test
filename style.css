@@ -49,7 +49,7 @@ h1{
 }
 .navbar li{
     float: right;
-} 
+}
 .mpage{
     display: grid;
     grid-template-columns: 15% auto;
