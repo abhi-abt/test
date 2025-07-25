@@ -32,8 +32,27 @@
     </nav>
 </header>
     <div class="main">
-        <div class = "banner">
-            <img id ="bannerImage" src="https://img-c.udemycdn.com/notices/web_carousel_slide/image/9c276f10-7ba5-46a1-ac7e-e6087a9c28d4.jpg" alt="Banner">
+        <div class="carousel-container">
+            <div class="carousel-slide active">
+                <img src="/Images/banner1.jpg" alt="Slide 1">
+                <div class="carousel-content">
+                    <h2>Meet your new AI conversation coach</h2>
+                    <p>Role Play is the interactive way to practice your business and communication skills.</p>
+                    <button>Find courses with Role Play</button>
+                </div>
+            </div>
+
+            <div class="carousel-slide">
+                <img src="/Images/banner2.png" alt="Slide 2">
+                <div class="carousel-content">
+                    <h2>Skills that start careers</h2>
+                    <p>Introducing Career Accelerators - focus on the skills and real-world experience that'll get you noticed.</p>
+                    <button>Explore All Career Accelerators</button>
+                </div>
+            </div>
+
+            <button class="carousel-arrow prev">&#10094;</button>
+            <button class="carousel-arrow next">&#10095;</button>
         </div>
 
         <div class="section1">
@@ -340,7 +359,8 @@
 
 </footer>
 
-<script src="script.js"></script>
+<!--<script src="script.js"></script>-->
+<script src="carousel.js"></script>
 </body>
 
 </html>
